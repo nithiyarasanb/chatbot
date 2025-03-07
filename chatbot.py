@@ -10,8 +10,8 @@ API_URL = "http://localhost:5000/chat"
 engine = pyttsx3.init()
 
 # Streamlit UI Setup
-st.set_page_config(page_title="Gemini AI Chatbot", layout="centered")
-st.title("🤖 Gemini AI Chatbot")
+st.set_page_config(page_title="career guidance AI Chatbot", layout="centered")
+st.title("🤖 career guidance AI Chatbot")
 
 # Chat history
 if "messages" not in st.session_state:
